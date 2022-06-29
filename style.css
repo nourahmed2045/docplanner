@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  font-family: "Poppins", sans-serif;
+}
+header {
+  background-color: white;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  font-weight: 700;
+  position: fixed;
+  padding: 20px;
+}
+.logo {
+  text-decoration: none;
+  color: gray;
+  font-size: 1.8rem;
+}
+.docplanner {
+  color: rgb(11, 219, 219);
+}
+.navigation a {
+  text-decoration: none;
+  color: gray;
+  margin: 20px;
+}
+.navigation :hover {
+  color: rgb(11, 219, 219);
+}
+.sec-1 {
+  padding: 150px 300px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+}
+.span {
+  grid-column: span 2;
+  margin-left: 1em;
+  color: rgb(11, 219, 219);
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+.sec-1 p {
+  color: gray;
+}
+.cards-1 {
+  display: flex;
+  
+  flex-direction: row;
+}
+.card-1,
+.card-2,
+.card-3 {
+  border-radius: 10px;
+  margin: 50px;
+  padding: 30px;
+}
+.card-1 {
+  color: white;
+  background-color: rgb(42, 204, 204);
+}
+.card-2 {
+  color: white;
+  background-color: rgb(83, 83, 228) ;
+}
+.card-3 {
+  color: white;
+  background-color: rgb(7, 7, 59);
+}
+.sec-2{
+  display: flex;
+  background-color: rgb(137, 236, 243);
+}
+.some-words{
+  width: 25rem;
+  margin: 70px;
+  margin-right: 300px;
+}
+.card-sec-1{
+  display: flex;
+  flex-direction: row;
+gap: 50px;
+}
+.card-sec-2{
+  display: flex;
+  flex-direction: row;
+  gap: 60px;
+}
+.card-1-2{
+  width: 15rem;
+  background-color: white;
+  border-radius: 10px;
+  margin-top: 30px;
+  padding: 10px;
+}
+.card{
+  background-color: white;
+  border-radius: 10px;
+  margin-top: 30px;
+  padding: 20px;
+}
